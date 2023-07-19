@@ -48,6 +48,7 @@ export default function Pokemons({pokemons: initPokemons, limit: initLimit, offs
          }
       }
    }
+   
    return (
       <InfiniteScroll
          dataLength={pokemons.length}

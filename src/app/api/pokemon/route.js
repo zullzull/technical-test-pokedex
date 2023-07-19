@@ -52,6 +52,6 @@ export async function GET(request) {
     }))
     return NextResponse.json({ items: res, success: true })
   }else{
-    return NextResponse.json({ success: false, error: {} })
+    return NextResponse.json({ success: false, items: [], error: {} })
   }
 }
